@@ -24,6 +24,7 @@ quantum/version.h
 .idea/
 CMakeLists.txt
 cmake-build-debug
+.clang_complete
 doxygen/
 .DS_Store
 /util/wsl_downloaded
@@ -70,3 +71,6 @@ id_rsa_*
 
 # python things
 __pycache__
+
+# prerequisites for updating ChibiOS
+/util/fmpp*
